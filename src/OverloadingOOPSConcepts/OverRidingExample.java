@@ -1,4 +1,4 @@
-package OverloadingOOPSConcepts;
+   package OverloadingOOPSConcepts;
 
 public class OverRidingExample extends OverRidingExample2 {
 	// overloading means replacing the parent same method which where present in
@@ -7,11 +7,13 @@ public class OverRidingExample extends OverRidingExample2 {
 	public void engine()
 	{
 		System.out.println("I am in child class engine method");
+		System.out.println("parent class is not printed");
 	}
 	
 	public void speed()
 	{
 		System.out.println("I am in child speed method");
+		System.out.println("parent class data is inheritate in child class");
 	}
 	
 	public static void main(String[]args) {

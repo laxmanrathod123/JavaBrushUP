@@ -12,7 +12,12 @@ public class OverRidingExample2 {
 		System.out.println("parent class speed method");
 	}
 	
-	
+	public static void main(String[] args) {
+		OverRidingExample2 obj= new OverRidingExample2();
+		obj.engine();
+		obj.speed();
+		
+	}
 	
 	}
 

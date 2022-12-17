@@ -1,19 +1,20 @@
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class PracticeClass {
 	
 	public static void main (String []args) {
-		
-	Calendar cal= Calendar.getInstance();
-	SimpleDateFormat sdf= new SimpleDateFormat("dd/mm/yyyy hh:mm:ss");
-	System.out.println(sdf.format(cal.getTime()));
-	System.out.println();
+		int abc[][]= {{12,4,5},{3,4,7},{1,2,9}};
 	
-    System.out.println(cal.get(Calendar.DAY_OF_MONTH));
-    System.out.println(cal.get(Calendar.DAY_OF_YEAR));
-		
+			
+	
+	
 	}
 
 

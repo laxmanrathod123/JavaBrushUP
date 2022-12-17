@@ -9,7 +9,7 @@ public class childClassDemo extends ParentclassDemp{
 
 	public void engine()
 	{
-		System.out.println("new generation engine is implemented");
+		System.out.println("new generation engine is implemented child class");
 	}
 	
 	public void colour()
@@ -28,6 +28,7 @@ public class childClassDemo extends ParentclassDemp{
 		cd.colour();
 		cd.engine();
 		cd.variable();
+		cd.audiosystem();
 	}
 
 }

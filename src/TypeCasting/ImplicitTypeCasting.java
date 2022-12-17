@@ -1,4 +1,4 @@
-package TypeCasting;
+  package TypeCasting;
 
 public class ImplicitTypeCasting {
 	

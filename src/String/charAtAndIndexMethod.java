@@ -7,6 +7,8 @@ public class charAtAndIndexMethod {
 		
 		String a= "Java"; 
 		System.out.println(a.length());
+		char ch=a.charAt(2);
+		System.out.println(ch);
 		
 		
 		

@@ -12,6 +12,7 @@ public class addAllMethod {
 		ar1.add("java script");
 		System.out.println(ar1);
 		String str=ar1.get(0);
+		System.out.println(str);
 		System.out.println("Length of the string :"+str.length());
 		System.out.println("Index of :"+str.indexOf("j"));
 		

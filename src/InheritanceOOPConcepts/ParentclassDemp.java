@@ -12,16 +12,16 @@ public class ParentclassDemp {
 
 	public void brakes()
 	{
-		System.out.println("brakes code is implemented");
+		System.out.println("brakes code is implemented in parent class");
 	}
 	
 	public void audiosystem()
 	{
-		System.out.println("audiosystem is implemented");
+		System.out.println("audiosystem is implemented parent class");
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		
 	}
 
 }

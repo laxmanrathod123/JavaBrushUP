@@ -11,7 +11,7 @@ public class ParentClass {
 	
 	public void getStringData()
 	{
-		System.out.println("I am in parent class");
+		System.out.println("I am in parent class method");
 	}
 	
 	public static void main(String[]args) {

@@ -10,6 +10,13 @@ public class ArrayEx {
 		ar[3]=40;
 		ar[4]=50;
 	
+		//Printing the value of array using while loop
+		System.out.println("Printing array using while loop");
+		int j=0;
+		while(j<ar.length) {
+			System.out.println(ar[j]);
+			j++;
+		}
 		System.out.println("a[0]= "+ar[0]);
 		// finding the total number of row
 		System.out.println("Lenght of the Array: " +ar.length);

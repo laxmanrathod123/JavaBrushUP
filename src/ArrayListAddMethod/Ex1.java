@@ -17,7 +17,7 @@ public class Ex1 {
 		arr.add(10);
 		//printing the size of the array 
 		System.out.println("size of the Array:"+arr.size());
-		System.out.println("arr:"+arr);
+		System.out.println("arr:" + arr);
 		System.out.println("*********Lambda expression*************");
 		arr.stream().forEach(ele -> System.out.println(ele));
 		

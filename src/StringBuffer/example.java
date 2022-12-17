@@ -25,6 +25,7 @@ public class example {
 		System.out.println(sb);
 		
 		sb.replace(1, 4, "yy");
+		System.out.println(sb);
 		
 	}
 

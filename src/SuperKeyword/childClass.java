@@ -24,7 +24,7 @@ public class childClass extends ParentClass {
 	public static void main(String[]args) {
 		childClass obj= new childClass();
 		obj.getData();
-		//obj.getStringData();
+		obj.getStringData();
 	}
 
 }
